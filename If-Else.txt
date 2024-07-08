@@ -1,0 +1,42 @@
+Code 1
+percentage = 76
+
+if (percentage > 39 and percentage <= 59):
+   print("Passed, you scored:", percentage, "% with B Division.")
+if (percentage > 59 and percentage <= 74):
+   print("Passed, you scored:", percentage, "% with A Division.")
+if (percentage > 74 ):
+   print("Passed, you scored:", percentage, "% with A+ Division.")
+else:
+   print("Failed, you scored:", percentage, "%")
+     
+Passed, you scored: 76 % with A+ Division.
+
+Code-2
+
+Var1 = "Every Drop of Water is precious, Water is Life"
+print ("Enter your keyword to search")
+var2 = input()
+if var2 in Var1:
+   print("Keyword in Slogan")
+else:
+   print("keyword not in slogan")
+
+Output :-Enter your keyword to search
+in
+keyword not in slogan
+
+Code 3
+
+age=int(input("Enter age:-"))
+if age==18:
+  print("you are in scool")
+elif age>18 and age<=26:
+  print("in clg")
+elif age>26 and age<=60:
+  print("working professsional")
+else:
+  print("retired")
+Output :--
+Enter age:-61
+retired
